@@ -1,0 +1,11 @@
+# ninja log v5
+389	2632	7494790995997047	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	c86597b0dabb48aa
+25	1502	7494791521683971	source/CMakeFiles/SearchEngine.dir/InvertedIndex.cpp.obj	f58e5c8d7b2ac668
+7729	10403	7494791073743538	lib/libgtest.a	e4fa16d8c143b4e9
+3	1468	7494791521321949	source/CMakeFiles/SearchEngine.dir/SearchServer.cpp.obj	95c3112a5bce00f2
+17	2576	7494791532403865	source/CMakeFiles/SearchEngine.dir/main.cpp.obj	ff3ad6835c5aee1c
+10404	10616	7494791075867068	lib/libgtest_main.a	ad5bf9f7ae7a26c2
+10	4307	7494791549685993	source/CMakeFiles/SearchEngine.dir/ConverterJSON.cpp.obj	403467f18cfd3bd0
+308	7727	7494791046871985	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	1111fa40e473050e
+2	340	7494791629762862	build.ninja	a2ec884c0e918e4e
+4308	6389	7494791570410564	source/SearchEngine.exe	803ea41b568a6a3f
