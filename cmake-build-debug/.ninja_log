@@ -9,3 +9,7 @@
 308	7727	7494791046871985	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	1111fa40e473050e
 2	340	7494791629762862	build.ninja	a2ec884c0e918e4e
 4308	6389	7494791570410564	source/SearchEngine.exe	803ea41b568a6a3f
+4	3453	7543382251023614	source/CMakeFiles/SearchEngine.dir/SearchServer.cpp.obj	95c3112a5bce00f2
+228	3465	7543382251144114	source/CMakeFiles/SearchEngine.dir/InvertedIndex.cpp.obj	f58e5c8d7b2ac668
+222	4212	7543382258624484	source/CMakeFiles/SearchEngine.dir/main.cpp.obj	ff3ad6835c5aee1c
+4212	6716	7543382283531117	source/SearchEngine.exe	803ea41b568a6a3f

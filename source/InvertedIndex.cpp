@@ -3,6 +3,9 @@
 #include <sstream>
 #include <utility>
 #include <thread>
+#include <mutex>
+
+std::mutex index_mutex;
 
 bool Entry::operator==(const Entry &other) const {
     return (doc_id == other.doc_id &&
@@ -16,16 +19,27 @@ void CalculateWordCount(InvertedIndex* ii, std::string &Word, std::vector<Entry>
 void InvertedIndex::UpdateDocumentBase(std::vector<std::string>& input_docs) {
     docs = std::move(input_docs);
 
-    std::set<std::string> Words;
-    for (int i = 0; i < docs.size(); ++i) {
-        std::stringstream docStream(docs[i]);
+    std::vector<std::thread> threads;
 
-        for (std::string addedString; getline(docStream, addedString, ' ');) {
-            Words.insert(addedString);
-        }
+    for (size_t i = 0; i < docs.size(); ++i) {
+        threads.emplace_back([this, i]() {
+            std::unordered_map<std::string, size_t> local_word_count;
+            std::stringstream docStream(docs[i]);
+            std::string word;
+
+            while (docStream >> word) {
+                ++local_word_count[word];
+            }
+
+            std::lock_guard<std::mutex> guard(index_mutex);
+
+            for (const auto& [word, count] : local_word_count) {
+                freq_dictionary[word].push_back({i, count});
+            }
+        });
     }
-    for (auto i = Words.begin(); i != Words.end(); ++i) {
-        freq_dictionary[*i] = GetWordCount(*i);
+    for (auto& thread : threads) {
+        thread.join();
     }
 }
 
