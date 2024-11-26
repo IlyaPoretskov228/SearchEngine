@@ -2,10 +2,15 @@
 #include <set>
 #include <sstream>
 #include <utility>
+#include <thread>
 
 bool Entry::operator==(const Entry &other) const {
     return (doc_id == other.doc_id &&
             count == other.count);
+}
+
+void CalculateWordCount(InvertedIndex* ii, std::string &Word, std::vector<Entry> &v) {
+    v = ii->GetWordCount(Word);
 }
 
 void InvertedIndex::UpdateDocumentBase(std::vector<std::string>& input_docs) {
@@ -45,14 +50,14 @@ std::vector<Entry> InvertedIndex::GetWordCount(const std::string &word) {
                 bool hasFound = false;
                 int returnedVectorIndex;
                 for (int j = 0; j < returnedVector.size(); ++j) {
-                    if (returnedVector[i].doc_id == i) {
+                    if (returnedVector[j].doc_id == i) {
                         hasFound = true;
                         returnedVectorIndex = j;
                         break;
                     }
                 }
                 if (hasFound) {
-                    returnedVector[returnedVectorIndex].count += 1;
+                    returnedVector[returnedVectorIndex].count++;
                 } else {
                     returnedVector.push_back({i, 1});
                 }
