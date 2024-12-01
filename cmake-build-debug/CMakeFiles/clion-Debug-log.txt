@@ -1,5 +1,5 @@
 C:\Users\Илья\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Илья/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\Илья\Desktop\SearchEngine -B C:\Users\Илья\Desktop\SearchEngine\cmake-build-debug
 -- Using the multi-header code from C:/Users/Илья/Desktop/SearchEngine/nlohmann json/include/
--- Configuring done (0.3s)
--- Generating done (0.0s)
+-- Configuring done (1.0s)
+-- Generating done (0.1s)
 -- Build files have been written to: C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug

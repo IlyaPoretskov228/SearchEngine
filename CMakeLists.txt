@@ -12,5 +12,3 @@ set(MY_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
 add_subdirectory(source)
 add_subdirectory("nlohmann json")
 
-target_link_libraries(SearchEngine PUBLIC nlohmann_json::nlohmann_json)
-

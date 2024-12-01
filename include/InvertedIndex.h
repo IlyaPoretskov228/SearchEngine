@@ -24,3 +24,4 @@ private:
 };
 
 #endif // INVERTED_INDEX_H
+

@@ -1,7 +1,41 @@
 C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/CMakeFiles/install.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/CMakeFiles/install/local.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/CMakeFiles/install/strip.dir
 C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/CMakeFiles/SearchEngine.dir
 C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/CMakeFiles/edit_cache.dir
 C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/CMakeFiles/rebuild_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/CMakeFiles/list_install_components.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/CMakeFiles/install.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/CMakeFiles/install/local.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/CMakeFiles/install/strip.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/CMakeFiles/edit_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/CMakeFiles/rebuild_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/CMakeFiles/list_install_components.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/CMakeFiles/install.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/CMakeFiles/install/local.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/CMakeFiles/install/strip.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/edit_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/rebuild_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/list_install_components.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/install.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/install/local.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googlemock/CMakeFiles/install/strip.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/edit_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/rebuild_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/list_install_components.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/install.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/install/local.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/googletest-build/googletest/CMakeFiles/install/strip.dir
 C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/nlohmann json/CMakeFiles/edit_cache.dir
 C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/nlohmann json/CMakeFiles/rebuild_cache.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/nlohmann json/CMakeFiles/list_install_components.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/nlohmann json/CMakeFiles/install.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/nlohmann json/CMakeFiles/install/local.dir
+C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/nlohmann json/CMakeFiles/install/strip.dir
