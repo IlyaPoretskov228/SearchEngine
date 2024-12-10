@@ -9,7 +9,7 @@ SED:=$(shell command -v gsed || which sed)
 
 
 ##########################################################################
-# source files
+# src files
 ##########################################################################
 
 # the list of sources in the include folder
@@ -18,7 +18,7 @@ SRCS=$(shell find include -type f | sort)
 # the list of sources in the tests folder
 TESTS_SRCS=$(shell find tests -type f \( -name '*.hpp' -o -name '*.cpp' -o -name '*.cu' \) -not -path 'tests/thirdparty/*' -not -path 'tests/abi/include/nlohmann/*' | sort)
 
-# the single headers (amalgamated from the source files)
+# the single headers (amalgamated from the src files)
 AMALGAMATED_FILE=single_include/nlohmann/json.hpp
 AMALGAMATED_FWD_FILE=single_include/nlohmann/json_fwd.hpp
 
@@ -139,10 +139,10 @@ pvs_studio:
 
 
 ##########################################################################
-# Code format and source amalgamation
+# Code format and src amalgamation
 ##########################################################################
 
-# call the Artistic Style pretty printer on all source files
+# call the Artistic Style pretty printer on all src files
 pretty:
 	astyle \
 	    --style=allman \
@@ -165,7 +165,7 @@ pretty:
 	    --formatted \
 	   $(SRCS) $(TESTS_SRCS) $(AMALGAMATED_FILE) $(AMALGAMATED_FWD_FILE) docs/examples/*.cpp
 
-# call the Clang-Format on all source files
+# call the Clang-Format on all src files
 pretty_format:
 	for FILE in $(SRCS) $(TESTS_SRCS) $(AMALGAMATED_FILE) docs/examples/*.cpp; do echo $$FILE; clang-format -i $$FILE; done
 

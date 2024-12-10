@@ -1,11 +1,13 @@
 # ninja log v5
-389	2632	7494790995997047	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	c86597b0dabb48aa
-228	3465	7543382251144114	source/CMakeFiles/SearchEngine.dir/InvertedIndex.cpp.obj	f58e5c8d7b2ac668
-7729	10403	7494791073743538	lib/libgtest.a	e4fa16d8c143b4e9
-4	3453	7543382251023614	source/CMakeFiles/SearchEngine.dir/SearchServer.cpp.obj	95c3112a5bce00f2
-222	4212	7543382258624484	source/CMakeFiles/SearchEngine.dir/main.cpp.obj	ff3ad6835c5aee1c
-10404	10616	7494791075867068	lib/libgtest_main.a	ad5bf9f7ae7a26c2
-10	4307	7494791549685993	source/CMakeFiles/SearchEngine.dir/ConverterJSON.cpp.obj	403467f18cfd3bd0
-308	7727	7494791046871985	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	1111fa40e473050e
-2	340	7547727572808596	build.ninja	a2ec884c0e918e4e
-4212	6716	7543382283531117	source/SearchEngine.exe	803ea41b568a6a3f
+423	2715	7555472513106442	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	2a8ff4a0c656eef8
+4	2171	7555472507647681	source/CMakeFiles/SearchEngine.dir/InvertedIndex.cpp.obj	b2031811e9c0b820
+7841	10469	7555472590699807	lib/libgtest.a	e4fa16d8c143b4e9
+77	2192	7555472507783736	source/CMakeFiles/SearchEngine.dir/SearchServer.cpp.obj	43e98c488b8b106e
+87	3374	7555472519716151	source/CMakeFiles/SearchEngine.dir/main.cpp.obj	78105a6084f4da05
+10469	10700	7555472593017346	lib/libgtest_main.a	ad5bf9f7ae7a26c2
+96	5178	7555472537716907	source/CMakeFiles/SearchEngine.dir/ConverterJSON.cpp.obj	878cb8d49fedb1fd
+339	7839	7555472564244620	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	f7bce0833d602364
+2	340	7555472455197367	build.ninja	a2ec884c0e918e4e
+10700	14443	7555472630353008	source/SearchEngine.exe	21f8b20f8d57e817
+10700	14443	7555472630353008	source/SearchEngine[1]_tests.cmake	21f8b20f8d57e817
+10700	14443	7555472630353008	C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/SearchEngine[1]_tests.cmake	21f8b20f8d57e817

@@ -1248,7 +1248,7 @@ To embed the library directly into an existing CMake project, place the entire s
 # run from your own project's code.
 set(JSON_BuildTests OFF CACHE INTERNAL "")
 
-# If you only include this third party in PRIVATE source files, you do not
+# If you only include this third party in PRIVATE src files, you do not
 # need to install it when your main project gets installed.
 # set(JSON_Install OFF CACHE INTERNAL "")
 

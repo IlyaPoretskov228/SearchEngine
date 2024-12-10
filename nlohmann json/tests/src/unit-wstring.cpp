@@ -11,7 +11,7 @@
 #include <nlohmann/json.hpp>
 using nlohmann::json;
 
-// ICPC errors out on multibyte character sequences in source files
+// ICPC errors out on multibyte character sequences in src files
 #ifndef __INTEL_COMPILER
 namespace
 {

@@ -7,7 +7,7 @@ using namespace nlohmann::literals;
 
 int main()
 {
-    // the source document
+    // the src document
     json source = R"(
         {
             "baz": "qux",

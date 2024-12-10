@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Илья/Desktop/SearchEngine/source
+# Install script for directory: C:/Users/Илья/Desktop/SearchEngine/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

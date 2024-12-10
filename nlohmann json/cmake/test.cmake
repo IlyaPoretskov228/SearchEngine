@@ -196,7 +196,7 @@ endfunction()
 #     test-foo_cpp<version_number>
 #
 # if C++ standard <version_number> is supported by the compiler and the
-# source file contains JSON_HAS_CPP_<version_number>.
+# src file contains JSON_HAS_CPP_<version_number>.
 # Use NAME <name> to override the filename-derived test name.
 # Use FORCE to create the test regardless of the file containing
 # JSON_HAS_CPP_<version_number>.

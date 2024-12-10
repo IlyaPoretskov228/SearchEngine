@@ -38,13 +38,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/source/cmake_install.cmake")
-endif()
+  # Include the install script for each subdirectory.
+  include("C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/_deps/json-build/cmake_install.cmake")
+  include("C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/src/cmake_install.cmake")
+  include("C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/tests/cmake_install.cmake")
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/Илья/Desktop/SearchEngine/cmake-build-debug/nlohmann json/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

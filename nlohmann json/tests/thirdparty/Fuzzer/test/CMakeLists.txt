@@ -33,7 +33,7 @@ set(CMAKE_CXX_FLAGS "${LIBFUZZER_FLAGS_BASE} -fsanitize-coverage=trace-pc-guard,
 #
 #   Declares a LibFuzzer test executable with target name LLVMFuzzer-<name>.
 #
-#   One or more source files to be compiled into the binary must be declared
+#   One or more src files to be compiled into the binary must be declared
 #   after the SOURCES keyword.
 function(add_libfuzzer_test name)
   set(multi_arg_options "SOURCES")

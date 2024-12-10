@@ -7,7 +7,7 @@
 // SPDX-License-Identifier: MIT
 
 /****************************************************************************\
- * Note on documentation: The source files contain links to the online      *
+ * Note on documentation: The src files contain links to the online      *
  * documentation of the public API at https://json.nlohmann.me. This URL    *
  * contains the most recent documentation and should also be applicable to  *
  * previous versions; documentation for deprecated functions is not         *

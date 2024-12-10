@@ -4,6 +4,6 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs("source")
-subdirs("nlohmann json")
-subdirs("_deps/googletest-build")
+subdirs("_deps/json-build")
+subdirs("src")
+subdirs("tests")

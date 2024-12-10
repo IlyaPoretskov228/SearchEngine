@@ -176,7 +176,7 @@ class WorkTrees(FileSystemEventHandler):
         if not is_project_root(scan_dir):
             return
 
-        # skip source trees in build directories
+        # skip src trees in build directories
         # this check could be enhanced
         if scan_dir.endswith('/_deps/json-src'):
             return

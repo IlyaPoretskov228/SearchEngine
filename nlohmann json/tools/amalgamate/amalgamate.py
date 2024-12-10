@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # coding=utf-8
 
-# amalgamate.py - Amalgamate C source and header files.
+# amalgamate.py - Amalgamate C src and header files.
 # Copyright (c) 2012, Erik Edlund <erik.edlund@32767.se>
 # 
-# Redistribution and use in source and binary forms, with or without modification,
+# Redistribution and use in src and binary forms, with or without modification,
 # are permitted provided that the following conditions are met:
 # 
-#  * Redistributions of source code must retain the above copyright notice,
+#  * Redistributions of src code must retain the above copyright notice,
 #  this list of conditions and the following disclaimer.
 # 
 #  * Redistributions in binary form must reproduce the above copyright notice,
@@ -87,8 +87,8 @@ class Amalgamation(object):
             print(" include_paths = {0}".format(self.include_paths))
         print("Creating amalgamation:")
         for file_path in self.sources:
-            # Do not check the include paths while processing the source
-            # list, all given source paths must be correct.
+            # Do not check the include paths while processing the src
+            # list, all given src paths must be correct.
             # actual_path = self.actual_path(file_path)
             print(" - processing \"{0}\"".format(file_path))
             t = TranslationUnit(file_path, self, True)
@@ -268,12 +268,12 @@ class TranslationUnit(object):
 
 
 def main():
-    description = "Amalgamate C source and header files."
+    description = "Amalgamate C src and header files."
     usage = " ".join([
         "amalgamate.py",
         "[-v]",
         "-c path/to/config.json",
-        "-s path/to/source/dir",
+        "-s path/to/src/dir",
         "[-p path/to/prologue.(c|h)]"
     ])
     argsparser = argparse.ArgumentParser(
@@ -285,8 +285,8 @@ def main():
     argsparser.add_argument("-c", "--config", dest="config",
                             required=True, metavar="", help="path to a JSON config file")
 
-    argsparser.add_argument("-s", "--source", dest="source_path",
-                            required=True, metavar="", help="source code path")
+    argsparser.add_argument("-s", "--src", dest="source_path",
+                            required=True, metavar="", help="src code path")
 
     argsparser.add_argument("-p", "--prologue", dest="prologue",
                             required=False, metavar="", help="path to a C prologue file")
