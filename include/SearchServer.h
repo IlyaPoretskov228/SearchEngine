@@ -3,6 +3,7 @@
 #ifndef SEARCH_SERVER_H
 #define SEARCH_SERVER_H
 
+#pragma once
 #include "InvertedIndex.h"
 #include <vector>
 #include <string>

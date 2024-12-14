@@ -3,6 +3,7 @@
 #ifndef INVERTED_INDEX_H
 #define INVERTED_INDEX_H
 
+#pragma once
 #include <vector>
 #include <string>
 #include <unordered_map>

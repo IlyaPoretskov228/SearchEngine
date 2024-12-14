@@ -3,6 +3,7 @@
 #ifndef CONVERTER_JSON_H
 #define CONVERTER_JSON_H
 
+#pragma once
 #include <vector>
 #include <string>
 #include <nlohmann/json.hpp>

@@ -342,6 +342,9 @@ GIT_EXECUTABLE:FILEPATH=C:/Users/Илья/Desktop/Git/cmd/git.exe
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
 
+//The directory containing a CMake configuration file for GTest.
+GTest_DIR:PATH=GTest_DIR-NOTFOUND
+
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON

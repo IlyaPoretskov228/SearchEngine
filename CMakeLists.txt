@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required (VERSION 3.24)
 project("SearchEngine")
 
 set(CMAKE_CXX_STANDARD 20)
@@ -10,6 +10,8 @@ set(MY_INCLUDE_DIR
 set(MY_SRC_DIR ${CMAKE_SOURCE_DIR}/src)
 
 include(FetchContent)
+
+
 
 FetchContent_Declare(
         googletest
